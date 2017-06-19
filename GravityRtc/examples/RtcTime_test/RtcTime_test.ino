@@ -1,19 +1,21 @@
 #include "GravityRtc.h"
 #include "Wire.h"  
 
-//时钟模块
-GravityRtc rtc;
+
+GravityRtc rtc;     //RTC Initialization
 
 void setup() {
   Serial.begin(9600);
     rtc.setup();
-//rtc.initRtc(2017,6,19,1,12,7,0);//年月日周时分秒
+    
+//rtc.initRtc(2017,6,19,1,12,7,0);  //Set Time: 2017/June/19th/Monday/12:07:0 am
+//Pelase comment it after you have set time successfully!!!!!!!
 
 }
 
 void loop() {
   rtc.update();
-//*************************时间********************************
+//*************************Time********************************
 Serial.print("   Year = ");//year
 Serial.print(rtc.year);
 Serial.print("   Month = ");//month
