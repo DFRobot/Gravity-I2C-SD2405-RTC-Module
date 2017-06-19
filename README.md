@@ -10,6 +10,6 @@ Contains the Following:
 * Layout.pdf: Gravity I2C SD2405 RTC Module Layout.pdf
 
 
-[Get the RTC Module here] (https://www.dfrobot.com/wiki/index.php/Gravity:_I2C_SD2405_RTC_Module_SKU:_DFR0469)
+[Get the RTC Module here](https://www.dfrobot.com/wiki/index.php/Gravity:_I2C_SD2405_RTC_Module_SKU:_DFR0469)
 
 # To Download, please click "Download ZIP"
