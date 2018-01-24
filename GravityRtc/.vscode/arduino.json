@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "examples\\RtcTime_test\\RtcTime_test.ino",
+    "port": "COM6"
+}
