@@ -6,11 +6,11 @@ GravityRtc rtc;     //RTC Initialization
 void setup() {
   Serial.begin(9600);
   
-  //自动设置RTC时钟：通过获取电脑时间校准RTC模块，首先需要保证电脑时间正确
+  //Set the RTC time automatically: Calibrate RTC time by your computer time
   rtc.setup();
 
-  //手动设置RTC时钟
-  //rtc.adjustRt(2017,6,19,1,12,7,0);  //设置时间：2017/6/19，周一，12点07分0秒
+  //Set the RTC time manually
+  //rtc.adjustRt(2017,6,19,1,12,7,0);  //Set time: 2017/6/19, Monday, 12:07:00
 }
 
 void loop() {
