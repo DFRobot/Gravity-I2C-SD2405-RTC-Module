@@ -31,8 +31,6 @@ const uint8_t daysInMonth [] PROGMEM = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 void GravityRtc::setup()
 {
 	Wire.begin();
-	//自动获取电脑时间进行校准
-    init(F(__DATE__), F(__TIME__));
 }
 
 
