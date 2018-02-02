@@ -44,7 +44,7 @@ void GravityRtc::read()
 	processRtc();	
 }
 
-void GravityRtc::init(const __FlashStringHelper* date, const __FlashStringHelper* time)
+void GravityRtc::adjustRtc(const __FlashStringHelper* date, const __FlashStringHelper* time)
 {
 	char buff[11];
     memcpy_P(buff, date, 11);
